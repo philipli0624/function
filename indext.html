@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <button onclick="changeColor()">Click</button>
+
+    <script>
+        var colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink'];
+        
+        function changeColor() {
+            var randomColor = colors[Math.floor(Math.random() * 7)];
+            document.body.style.backgroundColor = randomColor;
+        }
+    </script>
+</body>
+</html>
